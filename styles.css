@@ -3,11 +3,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #2C3531; /* Set the background color for the entire page */
+    color: white; /* Default text color */
 }
 
 /* Navigation Styles */
 nav {
-    background-color: #2C3574; /* Blue color */
+    background-color: #2C3531; /* Set the background color for the navbar */
     padding: 10px;
 }
 
@@ -24,12 +26,10 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: white; /* Set the text color for navbar links */
     text-decoration: none;
     font-weight: bold;
 }
-
-
 
 /* Section Styles */
 section {
@@ -37,33 +37,16 @@ section {
     border-radius: 15px; /* Rounded border */
     margin-bottom: 20px; /* Space between sections */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    background-color: #2C3531; /* Ensure sections also have the same background color */
 }
 
-/* .home-section {
-    background-color: #FFD700; /* Yellow (tetradic color) */
-    /* color: #333; /* Dark text for contrast */
-/* }
-
-.about-me{
-    flex: 1;
-    padding-left: 20px;
-}
-
-.abt-me{
-    width: 500px;
-    height: 500px;
-    border-radius: 20px;
-} */ 
-
-
-
+/* Home Section */
 .home-section {
-    background-color: #116466; /* Light gray background for home section */
+    background-color: #116466; /* Set the background color for the home section */
     padding: 50px 0;
     border-radius: 15px;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
 }
 
 .about-me-img {
@@ -74,35 +57,32 @@ section {
 
 .about-me-content {
     padding: 20px;
-    color: white;
+    color: white; /* Set text color to white */
 }
 
 .about-me-content h1 {
     margin-bottom: 20px;
 }
 
-
-
-
-
-
-
-
+/* Experience Section */
 .experience-section {
     background-color: #FF5733; /* Orange (tetradic color) */
     color: white;
 }
 
+/* Achievements Section */
 .achievements-section {
     background-color: #8A2BE2; /* Purple (tetradic color) */
     color: white;
 }
 
+/* Leadership Section */
 .leadership-section {
     background-color: #2E86C1; /* Blue (tetradic color) */
     color: white;
 }
 
+/* Contact Section */
 .contact-section {
     background-color: #007BFF; /* Dark blue (similar to nav bar) */
     color: white;
@@ -140,6 +120,7 @@ section {
     margin: auto;
 }
 
+/* Know Me Section */
 .know-me-section {
     background-color: #F0F0F0; /* Light gray background */
     padding: 50px 0;
@@ -164,4 +145,3 @@ section {
 .carousel {
     margin-top: 20px;
 }
-
