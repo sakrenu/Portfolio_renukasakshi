@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #007BFF; /* Blue color */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+/* Section Styles */
+section {
+    padding: 50px 0;
+    border-radius: 15px; /* Rounded border */
+    margin-bottom: 20px; /* Space between sections */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* .home-section {
+    background-color: #FFD700; /* Yellow (tetradic color) */
+    /* color: #333; /* Dark text for contrast */
+/* }
+
+.about-me{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.abt-me{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+} */ */ */
+
+
+
+.home-section {
+    background-color: #EFEFEF; /* Light gray background for home section */
+    padding: 50px 0;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-img {
+    max-width: 100%;
+    border-radius: 10px; /* Rounded corners for image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.about-me-content {
+    padding: 20px;
+}
+
+.about-me-content h1 {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+.experience-section {
+    background-color: #FF5733; /* Orange (tetradic color) */
+    color: white;
+}
+
+.achievements-section {
+    background-color: #8A2BE2; /* Purple (tetradic color) */
+    color: white;
+}
+
+.leadership-section {
+    background-color: #2E86C1; /* Blue (tetradic color) */
+    color: white;
+}
+
+.contact-section {
+    background-color: #007BFF; /* Dark blue (similar to nav bar) */
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 30%;
+    margin: 15px 0;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Contact Form Styles */
+.contact-section form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.know-me-section {
+    background-color: #F0F0F0; /* Light gray background */
+    padding: 50px 0;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.know-me-section h2 {
+    margin-bottom: 20px;
+}
+
+.know-me-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.know-me-section ul li {
+    margin-bottom: 10px;
+}
+
+.carousel {
+    margin-top: 20px;
+}
+
