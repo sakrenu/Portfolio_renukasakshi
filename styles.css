@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #2C3531; /* Set the background color for the entire page */
+    background-color: black; /* Set the background color for the entire page */
     color: white; /* Default text color */
 }
 
