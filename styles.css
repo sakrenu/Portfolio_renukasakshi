@@ -67,7 +67,7 @@ section {
 
 /* Experience Section */
 .experience-section {
-    background-color: #FFCB9A; /* Orange (tetradic color) */
+    background-color: #D68910; /* Orange (tetradic color) */
     color: white;
 }
 
@@ -79,7 +79,7 @@ section {
 
 /* Leadership Section */
 .leadership-section {
-    background-color: #D1E8E2; /* Blue (tetradic color) */
+    background-color: #D4AC0D; /* Blue (tetradic color) */
     color: white;
 }
 
@@ -123,7 +123,7 @@ section {
 
 /* Know Me Section */
 .know-me-section {
-    background-color: #F0F0F0; /* Light gray background */
+    background-color: #1ABC9C; /* Light gray background */
     padding: 50px 0;
     border-radius: 15px;
     margin-bottom: 20px;
