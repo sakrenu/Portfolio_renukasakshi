@@ -58,6 +58,7 @@ section {
 .about-me-content {
     padding: 20px;
     color: white; /* Set text color to white */
+    font-size: large;
 }
 
 .about-me-content h1 {
