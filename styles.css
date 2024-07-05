@@ -67,7 +67,7 @@ section {
 
 /* Experience Section */
 .experience-section {
-    background-color:#A569BD; /* Orange (tetradic color) */
+    background-color:#1ABC9C; /* Orange (tetradic color) */
     color: white;
 }
 
@@ -79,13 +79,13 @@ section {
 
 /* Leadership Section */
 .leadership-section {
-    background-color: #D4AC0D; /* Blue (tetradic color) */
+    background-color: #76448A; /* Blue (tetradic color) */
     color: white;
 }
 
 /* Contact Section */
 .contact-section {
-    background-color: #007BFF; /* Dark blue (similar to nav bar) */
+    background-color: #2471A3; /* Dark blue (similar to nav bar) */
     color: white;
 }
 
@@ -123,7 +123,7 @@ section {
 
 /* Know Me Section */
 .know-me-section {
-    background-color: #1ABC9C; /* Light gray background */
+    background-color: #F1C40F ; /* Light gray background */
     padding: 50px 0;
     border-radius: 15px;
     margin-bottom: 20px;
@@ -137,6 +137,8 @@ section {
 .know-me-section ul {
     list-style: none;
     padding: 0;
+    font-size: x-large;
+    color: white;
 }
 
 .know-me-section ul li {
