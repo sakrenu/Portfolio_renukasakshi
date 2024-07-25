@@ -124,28 +124,40 @@ section {
 
 /* Know Me Section */
 .know-me-section {
-    background-color: #F1C40F ; /* Light gray background */
+    background-color: #F1C40F; /* Light gray background */
     padding: 50px 0;
     border-radius: 15px;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 .know-me-section h2 {
     margin-bottom: 20px;
 }
-
 .know-me-section ul {
     list-style: none;
     padding: 0;
     font-size: x-large;
     color: white;
 }
-
 .know-me-section ul li {
     margin-bottom: 10px;
 }
-
-.carousel {
-    margin-top: 20px;
+.know-me-section ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
 }
+.know-me-section ul li a:hover {
+    color: #0056b3;
+}
+/* Carousel */
+.carousel {
+    max-width: 500px;
+    margin: 20px auto 0;
+}
+.carousel img {
+    height: 300px;
+    object-fit: cover;
+}
+
